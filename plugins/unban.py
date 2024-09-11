@@ -17,10 +17,10 @@ def unblocked(message):
                 print("unbanning")
                 sql.execute("DELETE FROM blocked WHERE user_id = ?",(i[0],))
                 db.commit()
-                bot.send_message(i[0],"you were unblocked")
-                bot.send_message(message.chat.id, "you unblocked " + str(i[0]))
+                bot.send_message(i[0],"Blokdan chiqarildingiz")
+                bot.send_message(message.chat.id, "Blokdan chiqdingiz " + str(i[0]))
         else:
-            bot.send_message(message.chat.id, "you are not admin!")
+            bot.send_message(message.chat.id, "Siz admin emassiz !")
         sql.close()
         db.close()
     except Exception as ee:

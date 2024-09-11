@@ -2,8 +2,8 @@ import telebot
 import sqlite3
 from plugins.ban import blocked
 import time
-#db = sqlite3.connect('users.db', check_same_thread=False)
-#sql = db.cursor()
+db = sqlite3.connect('users.db', check_same_thread=False)
+sql = db.cursor()
 from plugins.unban import unblocked
 from content.text import text
 from content.other import other
