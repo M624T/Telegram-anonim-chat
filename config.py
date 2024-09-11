@@ -1,8 +1,7 @@
-blocked = "бот был заблокирован пользователем"#сообщение, которое будет отображаться, если пользователь заблокировал вас
-start = "Привет! Это ваше стартовое сообщение!"#команда пры запуска
-ban = "Вы были забанены администратором!"#запрещающее сообщение
-unban = "Вы были разблокированы администратором."#сообщение о снятии запрета
-text_message = "отправленное сообщение"#ответ_на_текст_пользователю
-banned = "вы заблокированы"#если администратор заблокировал пользователя
-main_id = 1237109672 #id без кавычек # может быть идентификатором группы
-TOKEN = "6026772530:AAGeAmjxgZ3MisOPB-JU3fM28qNcYDcXPsw"#токен бота
+start = "Salom, bu xabar boshlang'ich xabar !" # boshlang'ich buyruq
+ban = "Siz, admin tomonidan blocklandingiz !" # Taqiqlangan xabar
+unban = "Siz, admin tomonidan blockdan olindingiz !" # Taqiqdan yechilgan xabar
+text_message = "Xabar jo'natildi !" # foydalanuvchiga_matnga_javob
+banned = "Siz blocklandingiz !" # agar administrator foydalanuvchini bloklagan bo'lsa
+main_id = ... # Qo'shtirnoqsiz id # guruh identifikatori bo'lishi mumkin (3 ta nuqtani o'chirib yozing)
+TOKEN = "..." # Botni TOKENi (3 ta nuqtani o'chirib yozing)
