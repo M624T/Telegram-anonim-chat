@@ -17,7 +17,7 @@ def blocked(message):
                 sql.execute("SELECT user_id FROM blocked WHERE user_id = ?",(i[0],))
                 if sql.fetchone() is None:
                     bot.send_message(i[0],config.ban)
-                    bot.send_message(message.chat.id, "Siz blocklandingiz " + str(i[0]))
+                    bot.send_message(message.chat.id, "Siz bloklandingiz " + str(i[0]))
                     sql.execute("INSERT INTO blocked VALUES (?)",(i[0],))
                     db.commit()
         else:
